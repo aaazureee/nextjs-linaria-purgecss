@@ -3,4 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
 }
 
-module.exports = nextConfig
+const withLinaria = require('./next-linaria-custom');
+
+module.exports = withLinaria({
+  ...nextConfig
+})
