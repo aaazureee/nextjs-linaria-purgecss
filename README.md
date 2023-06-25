@@ -1,5 +1,6 @@
 # nextjs-linaria-purgecss
-Next.js example with [Linaria](https://github.com/callstack/linaria/tree/master) (works with Next.js 13), with support for [PurgeCSS](https://purgecss.com/introduction.html) to remove unused styles (from css modules or Linaria)  
+Next.js example with [Linaria](https://github.com/callstack/linaria/tree/master) (works with Next.js 13), with support for [PurgeCSS](https://purgecss.com/introduction.html) to remove unused styles (from css modules or Linaria).  
+Note: It does not work with App Router/RSC yet, this only works with `pages/` routing. Have a look at this https://github.com/dlehmhus/next-with-linaria if you want to support RSC.
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/aaazureee/nextjs-linaria-purgecss)
 
